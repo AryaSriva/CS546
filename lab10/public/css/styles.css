@@ -1,0 +1,30 @@
+.light {
+    background-color: white;
+    color:black;
+}
+
+.dark {
+    background-color: black;
+    color:white;
+}
+
+footer {
+    color:orange;
+    font-weight:bold;
+}
+
+p {
+    font-weight:bold;
+}
+
+a {
+    font-weight:bolder;
+}
+
+select {
+    background-color: yellow;
+}
+
+input {
+    background-color:aqua;
+}

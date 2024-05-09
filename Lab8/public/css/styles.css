@@ -1,0 +1,114 @@
+/*This file should have 10 CSS rulesets */
+
+* {
+    box-sizing: border-box;
+}
+
+.searchResultImage {
+    width: 75px;
+    height: 117px;
+}
+
+.movieName {
+    font-size:larger;
+}
+
+.movieForm {
+    display:flexbox;
+    align-content: center;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.button {
+    background-color: blue;
+    color:white;
+}
+
+.moviePoster{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    width:300px;
+    height:500px;
+}
+
+a {
+    font-style: oblique;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    margin: auto;
+    width:50%;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+}
+
+html {
+    background-color: chocolate;
+}
+
+footer {
+    color:white;
+    text-align: center;
+    height:100%;
+    margin-top:auto;
+}
+
+p {
+    color:white;
+    font-style:italic;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+h2,h3,h4 {
+    margin: auto;
+    width:50%;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+dt {
+    margin: auto;
+    width:50%;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+    font-size: large;
+}
+
+dd {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
+    color:white;
+    font-style: italic;
+}
+
+.my_coolratings_table {
+    margin: auto;
+    width: 50%;
+    /* text-align: center; */
+    color:white;
+}
+tr {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    color:white;
+}
+
+li {
+    color:white;
+    font-weight:bold;
+}

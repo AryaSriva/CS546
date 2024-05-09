@@ -1,0 +1,24 @@
+<!-- 
+This handlebar file will be rendered when the following route is hit: GET http://localhost:3000/
+ 
+ The title of the document should be "Movie Finder". You should have the title set as the <title> element of the HTML document and as an h1 in your document.
+
+Your page should reference a CSS file, /public/css/styles.css; this file should have at least 10 rulesets you must use at least 5 of them on this page. 
+
+
+ -->
+{{!-- uses h1, p, footer, movieForm, button rule set--}}
+
+
+<main>
+    <h1>Movie Finder</h1>
+    <p>This website allows users to search movies by name. It will produce upto 20 movies with a matching name. Users can also search
+        movies by imbdid. 
+    </p>
+    <form action = '/searchmovies' method = 'POST' class = 'movieForm'>
+        <label for="searchMoviesByName">
+            <input name="searchMoviesByName" id="searchMoviesByName" placeholder="Enter Movie">
+        </label>
+        <input type="submit" class="button">
+    </form>
+</main>

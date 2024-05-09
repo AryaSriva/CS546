@@ -1,0 +1,42 @@
+{{!--
+
+registration handelbars
+
+--}}
+
+<section>
+    <form id="signup-form" method="post">
+        <label for="firstName">
+            <input type="text" name="firstName" placeholder="First Name" id="firstName">
+        </label>
+        <label for="lastName">
+            <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+        </label>
+        <label for="username">
+            <input type="text" name="username" id="username" placeholder="Username">
+        </label>
+        <label for="password">
+            <input type="password" name="password" id="password" placeholder="Password">
+        </label>
+        <label for="confirmPassword">
+            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password">
+        </label>
+        <label for="favoriteQuote">
+            <input type="text" name="favoriteQuote" id="favoriteQuote" placeholder="Favorite Quote">
+        </label>
+        <label for="themePreference">
+            <select id="themePreference" name="themePreference">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            </select>
+        </label>
+        <label for="role">
+            <select id="role" name="role">
+                <option value="user">User</option>
+                <option value="admin">Admin</option>
+            </select>
+        </label>
+        <button id="submitButton" name="submitButton">Submit</button>
+    </form>
+    <a href = "./login">Already have an account? Click here to log-in</a>
+</section>
