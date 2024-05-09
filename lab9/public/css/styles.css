@@ -1,0 +1,42 @@
+/*
+You will style your page using at least 5 CSS selectors for general CSS styling. You will place the CSS in its own file. 
+*/
+
+* {
+    background-color: aqua;
+}
+
+footer {
+    font-style:oblique;
+    font-weight: bold;
+    margin-top:auto;
+    height: 100%;
+}
+
+header {
+    margin: auto;
+    width:50%;
+    text-align: center;
+}
+
+p {
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+}
+
+dt {
+    font-weight: bold;
+    font-size: large;
+}
+
+
+textarea {
+    background-color: white;
+    color:black;
+}
+
+button {
+    background-color: white;
+    color:black;
+}
